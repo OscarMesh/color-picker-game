@@ -13,7 +13,7 @@ const colorManager = () => {
       message.value = `You win... [answer: ${colors[randonNumber]}]`;
       return;
     }
-    message.value = `Color added successfully [answer: ${colors[randonNumber]}]]`;
+    message.value = `You loose... [answer: ${colors[randonNumber]}]]`;
   };
 
   return {
